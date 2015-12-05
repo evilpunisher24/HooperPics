@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="HooperPics" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9aM-aT-xNC">
+                                <rect key="frame" x="16" y="20" width="568" height="580"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="9aM-aT-xNC" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="352-qZ-UlY"/>
+                            <constraint firstItem="9aM-aT-xNC" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="6h9-M2-0YZ"/>
+                            <constraint firstItem="9aM-aT-xNC" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="Zhr-4e-5aI"/>
+                            <constraint firstItem="9aM-aT-xNC" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="ctK-sC-Xrr"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="WOl-rL-M95" appends="YES" id="sXx-aO-Gq6"/>
+                            <outletCollection property="gestureRecognizers" destination="HNP-Vf-fiQ" appends="YES" id="DkY-Cn-Nwj"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="9aM-aT-xNC" id="yaH-Tk-euN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="WOl-rL-M95">
+                    <connections>
+                        <action selector="SwipeLeft:" destination="vXZ-lx-hvc" id="iS7-R6-hhR"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="HNP-Vf-fiQ">
+                    <connections>
+                        <action selector="swipeRight:" destination="vXZ-lx-hvc" id="SK1-gK-png"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="504" y="347"/>
+        </scene>
+    </scenes>
+</document>

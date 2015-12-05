@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B809DD61C0C382800E507CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B809DD51C0C382800E507CB /* AppDelegate.swift */; };
+		1B809DD81C0C382800E507CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B809DD71C0C382800E507CB /* ViewController.swift */; };
+		1B809DDB1C0C382800E507CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B809DD91C0C382800E507CB /* Main.storyboard */; };
+		1B809DDD1C0C382800E507CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B809DDC1C0C382800E507CB /* Images.xcassets */; };
+		1B809DE01C0C382800E507CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B809DDE1C0C382800E507CB /* LaunchScreen.xib */; };
+		1B809DEC1C0C382800E507CB /* HooperPicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B809DEB1C0C382800E507CB /* HooperPicsTests.swift */; };
+		1B809DFD1C0D2BC100E507CB /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B809DF81C0D2BC100E507CB /* TFHpple.m */; };
+		1B809DFE1C0D2BC100E507CB /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B809DFA1C0D2BC100E507CB /* TFHppleElement.m */; };
+		1B809DFF1C0D2BC100E507CB /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B809DFC1C0D2BC100E507CB /* XPathQuery.m */; };
+		1B809E041C0D2C5700E507CB /* TFHppleHTMLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B809E011C0D2C5700E507CB /* TFHppleHTMLTest.m */; };
+		1B809E051C0D2C5700E507CB /* TFHppleStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B809E021C0D2C5700E507CB /* TFHppleStringTest.m */; };
+		1B809E061C0D2C5700E507CB /* TFHppleXMLTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B809E031C0D2C5700E507CB /* TFHppleXMLTest.m */; };
+		1B809E081C0D3BAB00E507CB /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B809E071C0D3BAB00E507CB /* libxml2.dylib */; };
+		1B809E0A1C0D6C6500E507CB /* HooperPicsDigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B809E091C0D6C6500E507CB /* HooperPicsDigger.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B809DE61C0C382800E507CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B809DC81C0C382800E507CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B809DCF1C0C382800E507CB;
+			remoteInfo = HooperPics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B809DD01C0C382800E507CB /* HooperPics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HooperPics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B809DD41C0C382800E507CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B809DD51C0C382800E507CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B809DD71C0C382800E507CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B809DDA1C0C382800E507CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B809DDC1C0C382800E507CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1B809DDF1C0C382800E507CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1B809DE51C0C382800E507CB /* HooperPicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HooperPicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B809DEA1C0C382800E507CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B809DEB1C0C382800E507CB /* HooperPicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HooperPicsTests.swift; sourceTree = "<group>"; };
+		1B809DF61C0D2BC000E507CB /* HooperPics-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HooperPics-Bridging-Header.h"; sourceTree = "<group>"; };
+		1B809DF71C0D2BC100E507CB /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		1B809DF81C0D2BC100E507CB /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		1B809DF91C0D2BC100E507CB /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		1B809DFA1C0D2BC100E507CB /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		1B809DFB1C0D2BC100E507CB /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		1B809DFC1C0D2BC100E507CB /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		1B809E001C0D2C5700E507CB /* HooperPicsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HooperPicsTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		1B809E011C0D2C5700E507CB /* TFHppleHTMLTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleHTMLTest.m; sourceTree = "<group>"; };
+		1B809E021C0D2C5700E507CB /* TFHppleStringTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleStringTest.m; sourceTree = "<group>"; };
+		1B809E031C0D2C5700E507CB /* TFHppleXMLTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleXMLTest.m; sourceTree = "<group>"; };
+		1B809E071C0D3BAB00E507CB /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		1B809E091C0D6C6500E507CB /* HooperPicsDigger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HooperPicsDigger.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B809DCD1C0C382800E507CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B809E081C0D3BAB00E507CB /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B809DE21C0C382800E507CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B809DC71C0C382800E507CB = {
+			isa = PBXGroup;
+			children = (
+				1B809E071C0D3BAB00E507CB /* libxml2.dylib */,
+				1B809DF51C0D2B7800E507CB /* hpple */,
+				1B809DD21C0C382800E507CB /* HooperPics */,
+				1B809DE81C0C382800E507CB /* HooperPicsTests */,
+				1B809DD11C0C382800E507CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B809DD11C0C382800E507CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B809DD01C0C382800E507CB /* HooperPics.app */,
+				1B809DE51C0C382800E507CB /* HooperPicsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B809DD21C0C382800E507CB /* HooperPics */ = {
+			isa = PBXGroup;
+			children = (
+				1B809DD51C0C382800E507CB /* AppDelegate.swift */,
+				1B809DD71C0C382800E507CB /* ViewController.swift */,
+				1B809E091C0D6C6500E507CB /* HooperPicsDigger.swift */,
+				1B809DD91C0C382800E507CB /* Main.storyboard */,
+				1B809DDC1C0C382800E507CB /* Images.xcassets */,
+				1B809DDE1C0C382800E507CB /* LaunchScreen.xib */,
+				1B809DD31C0C382800E507CB /* Supporting Files */,
+			);
+			path = HooperPics;
+			sourceTree = "<group>";
+		};
+		1B809DD31C0C382800E507CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B809DD41C0C382800E507CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B809DE81C0C382800E507CB /* HooperPicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B809E011C0D2C5700E507CB /* TFHppleHTMLTest.m */,
+				1B809E021C0D2C5700E507CB /* TFHppleStringTest.m */,
+				1B809E031C0D2C5700E507CB /* TFHppleXMLTest.m */,
+				1B809DEB1C0C382800E507CB /* HooperPicsTests.swift */,
+				1B809DE91C0C382800E507CB /* Supporting Files */,
+				1B809E001C0D2C5700E507CB /* HooperPicsTests-Bridging-Header.h */,
+			);
+			path = HooperPicsTests;
+			sourceTree = "<group>";
+		};
+		1B809DE91C0C382800E507CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B809DEA1C0C382800E507CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B809DF51C0D2B7800E507CB /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				1B809DF71C0D2BC100E507CB /* TFHpple.h */,
+				1B809DF81C0D2BC100E507CB /* TFHpple.m */,
+				1B809DF91C0D2BC100E507CB /* TFHppleElement.h */,
+				1B809DFA1C0D2BC100E507CB /* TFHppleElement.m */,
+				1B809DFB1C0D2BC100E507CB /* XPathQuery.h */,
+				1B809DFC1C0D2BC100E507CB /* XPathQuery.m */,
+				1B809DF61C0D2BC000E507CB /* HooperPics-Bridging-Header.h */,
+			);
+			name = hpple;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B809DCF1C0C382800E507CB /* HooperPics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B809DEF1C0C382800E507CB /* Build configuration list for PBXNativeTarget "HooperPics" */;
+			buildPhases = (
+				1B809DCC1C0C382800E507CB /* Sources */,
+				1B809DCD1C0C382800E507CB /* Frameworks */,
+				1B809DCE1C0C382800E507CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HooperPics;
+			productName = HooperPics;
+			productReference = 1B809DD01C0C382800E507CB /* HooperPics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B809DE41C0C382800E507CB /* HooperPicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B809DF21C0C382800E507CB /* Build configuration list for PBXNativeTarget "HooperPicsTests" */;
+			buildPhases = (
+				1B809DE11C0C382800E507CB /* Sources */,
+				1B809DE21C0C382800E507CB /* Frameworks */,
+				1B809DE31C0C382800E507CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B809DE71C0C382800E507CB /* PBXTargetDependency */,
+			);
+			name = HooperPicsTests;
+			productName = HooperPicsTests;
+			productReference = 1B809DE51C0C382800E507CB /* HooperPicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B809DC81C0C382800E507CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = YeYiquan;
+				TargetAttributes = {
+					1B809DCF1C0C382800E507CB = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1B809DE41C0C382800E507CB = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1B809DCF1C0C382800E507CB;
+					};
+				};
+			};
+			buildConfigurationList = 1B809DCB1C0C382800E507CB /* Build configuration list for PBXProject "HooperPics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B809DC71C0C382800E507CB;
+			productRefGroup = 1B809DD11C0C382800E507CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B809DCF1C0C382800E507CB /* HooperPics */,
+				1B809DE41C0C382800E507CB /* HooperPicsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B809DCE1C0C382800E507CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B809DDB1C0C382800E507CB /* Main.storyboard in Resources */,
+				1B809DE01C0C382800E507CB /* LaunchScreen.xib in Resources */,
+				1B809DDD1C0C382800E507CB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B809DE31C0C382800E507CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B809DCC1C0C382800E507CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B809DFE1C0D2BC100E507CB /* TFHppleElement.m in Sources */,
+				1B809DD81C0C382800E507CB /* ViewController.swift in Sources */,
+				1B809DFF1C0D2BC100E507CB /* XPathQuery.m in Sources */,
+				1B809E0A1C0D6C6500E507CB /* HooperPicsDigger.swift in Sources */,
+				1B809DFD1C0D2BC100E507CB /* TFHpple.m in Sources */,
+				1B809DD61C0C382800E507CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B809DE11C0C382800E507CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B809E051C0D2C5700E507CB /* TFHppleStringTest.m in Sources */,
+				1B809E041C0D2C5700E507CB /* TFHppleHTMLTest.m in Sources */,
+				1B809DEC1C0C382800E507CB /* HooperPicsTests.swift in Sources */,
+				1B809E061C0D2C5700E507CB /* TFHppleXMLTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B809DE71C0C382800E507CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B809DCF1C0C382800E507CB /* HooperPics */;
+			targetProxy = 1B809DE61C0C382800E507CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B809DD91C0C382800E507CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B809DDA1C0C382800E507CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B809DDE1C0C382800E507CB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B809DDF1C0C382800E507CB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B809DED1C0C382800E507CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B809DEE1C0C382800E507CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B809DF01C0C382800E507CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDKROOT}/usr/include/libxml2/**",
+				);
+				INFOPLIST_FILE = HooperPics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HooperPics-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B809DF11C0C382800E507CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDKROOT}/usr/include/libxml2/**",
+				);
+				INFOPLIST_FILE = HooperPics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HooperPics-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		1B809DF31C0C382800E507CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HooperPicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HooperPicsTests/HooperPicsTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HooperPics.app/HooperPics";
+			};
+			name = Debug;
+		};
+		1B809DF41C0C382800E507CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HooperPicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HooperPicsTests/HooperPicsTests-Bridging-Header.h";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HooperPics.app/HooperPics";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B809DCB1C0C382800E507CB /* Build configuration list for PBXProject "HooperPics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B809DED1C0C382800E507CB /* Debug */,
+				1B809DEE1C0C382800E507CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B809DEF1C0C382800E507CB /* Build configuration list for PBXNativeTarget "HooperPics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B809DF01C0C382800E507CB /* Debug */,
+				1B809DF11C0C382800E507CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B809DF21C0C382800E507CB /* Build configuration list for PBXNativeTarget "HooperPicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B809DF31C0C382800E507CB /* Debug */,
+				1B809DF41C0C382800E507CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B809DC81C0C382800E507CB /* Project object */;
+}
